@@ -76,7 +76,7 @@ public class ContentService {
         HighlightBuilder highlightBuilder = new HighlightBuilder();
         highlightBuilder.field("title");
         highlightBuilder.requireFieldMatch(false); // 是否需要多个高亮
-        highlightBuilder.preTags("<span type='color:red'>");
+        highlightBuilder.preTags("<span style='color:red'>");
         highlightBuilder.postTags("</span>");
         sourceBuilder.highlighter(highlightBuilder);
         // 执行搜索，分页

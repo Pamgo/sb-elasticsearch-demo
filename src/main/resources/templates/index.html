@@ -103,7 +103,7 @@
                             </p>
                             <!-- 店铺名 -->
                             <div class="productShop">
-                                <span>店铺： 狂神说Java </span>
+                                <span>店铺： 京东测试 </span>
                             </div>
                             <!-- 成交信息 -->
                             <p class="productStatus">
@@ -131,7 +131,7 @@
             searchKey() {
                 let keyword = this.keyword;
                 // 对接后端接口
-                axios.get('/searchJdPage/'+keyword+"/1/30").then(response=>{
+                axios.get('/elastic/searchJdPage/'+keyword+'/1/30').then(response=>{
                   this.results = response.data; // 返回数据
                 })
                 //console.log(keyword)
