@@ -1,7 +1,6 @@
 package com.byterun.service;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.byterun.constant.EsConst;
 import com.byterun.model.ContentModel;
 import com.byterun.utils.HtmlParseUtil;
@@ -25,10 +24,8 @@ import org.elasticsearch.search.fetch.subphase.highlight.HighlightField;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.swing.text.Highlighter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
