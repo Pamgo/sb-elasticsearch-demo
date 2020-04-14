@@ -1,0 +1,14 @@
+server:
+  port: 9090
+# 关闭缓存
+spring:
+  thymeleaf:
+    cache: false
+  application:
+    name: es-demo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+  instance:
+    prefer-ip-address: true
