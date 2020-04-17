@@ -98,7 +98,7 @@ public class ContentService {
             }
             list.add(sourceAsMap);
         }
-
+        log.info("查询到参数：{}", JSON.toJSONString(list));
         return list;
     }
 

@@ -73,6 +73,7 @@ public class ElasticController {
     public List<Map<String, Object>> searchJdPage(@PathVariable("keyword") String keyword,
                                                   @PathVariable("pageNo") int pageNo,
                                                   @PathVariable("pageSize") int pageSize) throws IOException {
+        log.info("查询es数据，参数:{},{},{}", keyword, pageNo, pageSize);
         return contentService.serachPage(keyword, pageNo, pageSize);
     }
 

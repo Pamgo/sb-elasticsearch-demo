@@ -4,6 +4,7 @@ server:
 spring:
   thymeleaf:
     cache: false
+
   #application:
    # name: es-demo
 #eureka:
@@ -12,3 +13,5 @@ spring:
     #  defaultZone: http://localhost:8000/eureka/
   #instance:
    # prefer-ip-address: true
+logging:
+  config: classpath:logback-spring.xml
