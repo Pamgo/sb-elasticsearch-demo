@@ -1,31 +1,24 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+# Maven
+**/target/
+**/*.ser
+**/*.ec
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# IntelliJ Idea
+**/.idea/
+**/out/
+**/*.ipr
+**/*.iws
+**/*.iml
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Eclipse
+**/.classpath
+**/.project
+**/.settings/
+**/.metadata/
+**/*.mymetadata
+**/*.myumldata
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-
-### VS Code ###
-.vscode/
+**/logs/**
+logs/**
+**/.DS_Store
+rebel.xml
