@@ -100,6 +100,12 @@
             <version>2.6</version>
         </dependency>
         <!--io end-->
+        <!-- logstash -->
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>7.0</version>
+        </dependency>
     </dependencies>
 
     <!--<dependencyManagement>
