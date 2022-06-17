@@ -56,7 +56,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.68</version>
+            <version>1.2.83</version>
         </dependency>
         <!--视频音乐爬取tika-->
         <!--解析网页-->
